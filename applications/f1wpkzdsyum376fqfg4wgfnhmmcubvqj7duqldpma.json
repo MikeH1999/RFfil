@@ -33,32 +33,32 @@
     "Total Requested Amount": "5PiB",
     "Single Size Dataset": "1PiB",
     "Replicas": 5,
-    "Weekly Allocation": "50TiB"
+    "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-03-29 17:03:47.945909008 UTC",
+    "Validated At": "2024-03-30 08:35:02.267137595 UTC",
     "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2024-03-29 17:15:57.033262693 UTC",
-    "Active Request ID": "997eaedd-7788-4202-919b-4a34ca68f3f0",
+    "Updated At": "2024-03-31 10:02:15.995927843 UTC",
+    "Active Request ID": "be01fa65-c983-4616-be79-121852802a09",
     "On Chain Address": "f1wpkzdsyum376fqfg4wgfnhmmcubvqj7duqldpma",
     "Multisig Address": "false"
   },
   "Allocation Requests": [
     {
-      "ID": "997eaedd-7788-4202-919b-4a34ca68f3f0",
+      "ID": "be01fa65-c983-4616-be79-121852802a09",
       "Request Type": "First",
-      "Created At": "2024-03-29 17:03:47.945914054 UTC",
-      "Updated At": "2024-03-29 17:03:47.945914921 UTC",
+      "Created At": "2024-03-30 08:35:02.267142975 UTC",
+      "Updated At": "2024-03-30 08:35:02.267143655 UTC",
       "Active": false,
-      "Allocation Amount": "50TiB",
+      "Allocation Amount": "512TiB",
       "Signers": [
         {
           "Github Username": "MikeH1999",
           "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
-          "Created At": "2024-03-29 17:15:56.253000000 UTC",
-          "Message CID": "bafy2bzacebjivphn2zhxglkqakldlg4kvzlhcsutqouv5hmdcdna7lvjrc3bq"
+          "Created At": "2024-03-31 10:02:16.929000000 UTC",
+          "Message CID": "bafy2bzacea7oj24wamcrlo3bgpuaeqwydkwomjp6bjlv4awkdfurkaq2t3tga"
         }
       ]
     }

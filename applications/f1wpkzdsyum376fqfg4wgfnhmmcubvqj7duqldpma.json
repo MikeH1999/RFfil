@@ -33,7 +33,7 @@
     "Total Requested Amount": "5PiB",
     "Single Size Dataset": "1PiB",
     "Replicas": 5,
-    "Weekly Allocation": "512TiB"
+    "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
     "State": "ReadyToSign",
@@ -68,7 +68,7 @@
       "Created At": "2024-03-31 11:00:13.481323077 UTC",
       "Updated At": "2024-03-31 11:00:13.481323812 UTC",
       "Active": true,
-      "Allocation Amount": "512TiB",
+      "Allocation Amount": "1PiB",
       "Signers": []
     }
   ]

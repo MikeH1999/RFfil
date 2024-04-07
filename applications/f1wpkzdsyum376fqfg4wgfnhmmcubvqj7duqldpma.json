@@ -68,7 +68,7 @@
       "Created At": "2024-04-03 02:00:04.894305269 UTC",
       "Updated At": "2024-04-03 02:00:04.894306066 UTC",
       "Active": true,
-      "Allocation Amount": "512TiB",
+      "Allocation Amount": "1PiB",
       "Signers": []
     }
   ]

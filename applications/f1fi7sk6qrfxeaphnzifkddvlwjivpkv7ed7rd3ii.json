@@ -36,14 +36,15 @@
     "Weekly Allocation": "50TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-04-03 22:26:00.656214919 UTC",
     "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2024-04-11 04:00:04.717114232 UTC",
+    "Updated At": "2024-04-18 07:33:45.923124079 UTC",
     "Active Request ID": "4af90e90-59de-4d0f-a003-3e21bcb30600",
     "On Chain Address": "f1fi7sk6qrfxeaphnzifkddvlwjivpkv7ed7rd3ii",
-    "Multisig Address": "false"
+    "Multisig Address": "false",
+    "edited": null
   },
   "Allocation Requests": [
     {
@@ -83,9 +84,16 @@
       "Request Type": "Refill",
       "Created At": "2024-04-11 04:00:04.717122528 UTC",
       "Updated At": "2024-04-11 04:00:04.717123568 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "80TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "MikeH1999",
+          "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
+          "Created At": "2024-04-18 07:33:18.492000000 UTC",
+          "Message CID": "bafy2bzaceakfkuxhsod4giekz3twzqj22n6u5p7mtrqdhaycjlhji365ymfba"
+        }
+      ]
     }
   ]
 }

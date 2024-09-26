@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f146jbsccg3cdoo4tbpkh242s4lpfnfivsg2ftoda",
+  "Issue Number": "43",
+  "Client": {
+    "Name": "Shenyang Dongya Medical Research Institute Co.",
+    "Region": "China",
+    "Industry": "Life Science / Healthcare",
+    "Website": "http://www.syeamri.com/",
+    "Social Media": "hunter_199",
+    "Social Media Type": "WeChat",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "We are a company dedicated to providing quality healthcare services. As a leading healthcare provider, we aim to provide our patients with the best possible treatment options through advanced technology and a dedicated team of healthcare professionals. Improving people's quality of life and helping them regain their health and stay well through innovative healthcare solutions. We are committed to being a leader in healthcare, delivering excellence in healthcare and making a positive social impact. We provide comprehensive healthcare services covering a wide range of areas including prevention, diagnosis, treatment and rehabilitation. We have a team of experienced doctors, nurses and healthcare professionals with a wide range of expertise and clinical experience to provide personalised and integrated medical care to our patients.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Medical data, surgical data, equipment and other videos and images, medical literature, etc.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We have our own storage facility . We will use the Boost tool",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://drive.google.com/drive/folders/1rJvCYROC5m35_GyISvHBXIoRQflhvyzd?usp=sharing",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02866666  Tokyo\r\nf03144777  Tokyo\r\nf02820000  GuangZhou\r\nf02639655  GuangZhou\r\nf02588263  Hong Kong\r\nf03166666  Hong kong\r\nf03166668  Hong kong\r\nf02362412 California\r\nf02639492 California\r\nf02368946 Huhehaote\r\nf02822222 Hong Kong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "3PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-09-26 03:28:18.046955414 UTC",
+    "Validated By": "MikeH1999",
+    "Active": true,
+    "Updated At": "2024-09-26 03:31:50.020822806 UTC",
+    "Active Request ID": "619ff41d-a9ac-4291-a51b-61edc9598412",
+    "On Chain Address": "f146jbsccg3cdoo4tbpkh242s4lpfnfivsg2ftoda",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "619ff41d-a9ac-4291-a51b-61edc9598412",
+      "Request Type": "First",
+      "Created At": "2024-09-26 03:28:18.046961974 UTC",
+      "Updated At": "2024-09-26 03:28:18.046963276 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "MikeH1999",
+          "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
+          "Created At": "2024-09-26 03:31:47.112000000 UTC",
+          "Message CID": "bafy2bzaceacxwf2vu56d47fjkofumhpiadzdjoavdmfr2awgxpjg5rtra65sk"
+        }
+      ]
+    }
+  ]
+}

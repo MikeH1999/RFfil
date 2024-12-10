@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1s3j5h3emfbrsj7by26kwhjaxr4lpx3oo2oxmiaq",
+  "Issue Number": "54",
+  "Client": {
+    "Name": "Zhejiang Dahua Technology Co., Ltd",
+    "Region": "China",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.dahuatech.com/",
+    "Social Media": "https://www.dahuatech.com/",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Zhejiang Dahua Technology Co., Ltd. is the world's leading video-centric intelligent IoT solution provider and operation service provider. Based on the Dahua Think# strategy, the company focuses on the two core businesses of cities and enterprises, firmly adheres to the two major technology strategies of AloT and IoT digital intelligence platform, and comprehensively promotes the digital intelligence upgrade of cities and enterprises around customer needs, creating more value for the digital intelligence transformation of thousands of industries.\r\n\r\nIn 2022, the company achieved an operating income of 30.565 billion yuan, maintaining a steady development trend. The company now has more than 23,000 employees, of which R&D technicians account for more than 50%. The company invests about 10% of its sales revenue in research and development every year, and is constantly committed to technological innovation, and has established the Advanced Technology Research Institute, Big Data Research Institute, Academia Sinica, Network Security Research Institute and Smart City Research Institute. Relying on the in-depth insight and layout of intelligent IoT, the company continues to explore emerging businesses, extending innovative businesses such as Huacheng, Huarui, Huasense, Huaruijie, Huashi Intelligent Inspection, Huahua, Operating Company, Huayixin, and Huachuang.\r\n\r\nDahua's marketing and service network covers the world, and has established 51 domestic and foreign branches in Asia, North America, South America, Europe, Africa and Oceania, and more than 200 offices in China to provide customers with fast and high-quality services. The company's products and solutions cover 180 countries and regions around the world, widely used in smart city, transportation, people's livelihood, manufacturing, education, energy, finance, environmental protection and other fields, and participated in the Beijing Winter Olympics, China International Import Expo, G20 Hangzhou Summit, Rio Olympic Games, Xiamen BRICS Summit, Shanghai World Expo, Guangzhou Asian Games, Hong Kong-Zhuhai-Macao Bridge and other major engineering projects.\r\n\r\nAs a national high-tech enterprise, Dahua Co., Ltd. was successfully listed on the A-share market in May 2008 (stock code: 002236), the company has a national postdoctoral scientific research workstation, is a national recognized enterprise technology center, a national innovative pilot enterprise, and now has 38 national scientific research projects. The company has applied for more than 8,000 patents, including more than 390 international patents. From 2008 to 2022, it was listed in the top 100 national software enterprises for 15 consecutive years1; It has been selected as \"A&S\" \"Global Security Top 50\" for 16 consecutive years2; won the honors of National Industrial Design Center3, Zhejiang Provincial People's Government Quality Award4, High-quality Development Leading Enterprise 5 and other honors, ranked second in the global intelligent video surveillance market share in the report released by Omdia20216, and is the recommended brand of China's smart city construction7 and the most growing enterprise in the field of intelligent IoT and security ecology8.\r\n\r\nDahua will adhere to the core values of \"customer-centric, striver-oriented\", practice the mission of \"making society safer and life smarter\", base itself on the market with excellent quality and service, create more value for customers, and make unremitting efforts to build a safe, intelligent, convenient and efficient society.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "With the rapid development of technology, technological innovation is helping to promote the high-quality development of agriculture. In this picture, the shooting and recording of modern technology is described, and the essence of agroecology is clearer.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We will use the Boost tool and singularity",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://pan.baidu.com/s/1QJrDXCHwOIjJBx07oWrUUw \r\nExtract the code:1k7h",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe, Australia (continent), Antarctica",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03226666 HK\r\nf03226668 HK\r\nf03175111 HK\r\nf02808877 Guangzhou\r\nf02808899 Guangzhou\r\nf03253580  HK\r\nf03253497  HK\r\nf03175168 Tokyo\r\nf02201190 US\r\nf01969779 US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "3PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-12-10 03:53:23.300756269 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1s3j5h3emfbrsj7by26kwhjaxr4lpx3oo2oxmiaq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}

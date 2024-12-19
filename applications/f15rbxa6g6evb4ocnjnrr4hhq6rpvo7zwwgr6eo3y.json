@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f15rbxa6g6evb4ocnjnrr4hhq6rpvo7zwwgr6eo3y",
+  "Issue Number": "60",
+  "Client": {
+    "Name": "NanHu",
+    "Region": "China",
+    "Industry": "IT & Technology Services",
+    "Website": "http://www.hox.net.cn/",
+    "Social Media": "http://www.hox.net.cn/",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "NanHu provides full-capability products and services, integrates resources through the Internet-based telecom capability open platform, fully open and integrated, based on the cloud platform and partners to build products and services. Through years of precipitation in the communications industry, the company and its team have a strong technical team, rich communications resources, the ability to build products based on cloud platforms, and sufficient operational support capabilities.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Code base, SMS, flash message, code of AI smart robot, recording",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We can use lotus to prepare data. We have servers and partners.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://1drv.ms/u/s!Ai4k4rlYLrp3a0GJ9w4AY_7e9Y0?e=9l493h",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03242023, Shanghai\r\nf03099981, Hongkong\r\nf01431043, Hongkong\r\nf01660795, Guangdong\r\nf03241837, Shanghai",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "463TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-12-19 13:20:16.319421690 UTC",
+    "Validated By": "MikeH1999",
+    "Active": true,
+    "Updated At": "2024-12-19 13:20:16.319417704 UTC",
+    "Active Request ID": "ece85f45-bcda-4e7a-b101-e86373695b54",
+    "On Chain Address": "f15rbxa6g6evb4ocnjnrr4hhq6rpvo7zwwgr6eo3y",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "ece85f45-bcda-4e7a-b101-e86373695b54",
+      "Request Type": "First",
+      "Created At": "2024-12-19 13:18:39.862058049 UTC",
+      "Updated At": "2024-12-19 13:18:39.862058973 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "MikeH1999",
+          "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
+          "Created At": "2024-12-19 13:20:04.260000000 UTC",
+          "Message CID": "bafy2bzaceatisapbpjsajrguygwrn5yed6flc3lrzgfhk4vfolvnqllm5mvee"
+        }
+      ]
+    }
+  ]
+}

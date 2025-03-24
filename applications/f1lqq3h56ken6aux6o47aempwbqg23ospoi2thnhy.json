@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1lqq3h56ken6aux6o47aempwbqg23ospoi2thnhy",
+  "Issue Number": "77",
+  "Client": {
+    "Name": "Maxar Open Data Program",
+    "Region": "US",
+    "Industry": "IT & Technology Services",
+    "Website": "https://registry.opendata.aws/maxar-open-data/；https://x.com/Maxar；https://www.youtube.com/channel/UCPsjOe5fyZLN6ko3RwbBqYw",
+    "Social Media": "https://www.maxar.com/maxar-space-systems/about",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Maxar Space Systems addresses a broad spectrum of needs for our customers, including mission systems engineering, product design, spacecraft manufacturing, assembly, integration, and testing. With more than 60 years of experience, we design and manufacture satellites and spacecraft components for communications, Earth observation, exploration and on-orbit servicing and assembly.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Resource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::maxar-opendata\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://maxar-opendata/\n\n\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302300/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302213/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302212/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302211/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302120/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302302/2019-11-09/103001009D337C00-visual.tif",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We generate and send cars and related orders based on this document: https://github.com/tech-greedy/singularity/blob/main/getting-started.md.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Pre and post event high-resolution satellite imagery in support of emergency planning, risk assessment, monitoring of staging areas and emergency response, damage assessment, and recovery. These images are generated using the Maxar ARD pipeline, tiled on an organized grid in analysis-ready cloud-optimized formats.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01531188 HK \nf03241413 ShenZhen \nf03238633 SG \nf03241579 ShenZhen\nAnother 4 SPs are still in preparation. When they are ready, we will update them to the list in advance. Thank you.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "7.5PiB",
+    "Single Size Dataset": "788TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-03-24 14:06:37.021193275 UTC",
+    "Validated By": "MikeH1999",
+    "Active": true,
+    "Updated At": "2025-03-24 14:06:37.021188783 UTC",
+    "Active Request ID": "674bacca-a0df-4ff3-8c3e-c3e9540a4731",
+    "On Chain Address": "f1lqq3h56ken6aux6o47aempwbqg23ospoi2thnhy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "674bacca-a0df-4ff3-8c3e-c3e9540a4731",
+      "Request Type": "First",
+      "Created At": "2025-03-24 14:04:06.839335697 UTC",
+      "Updated At": "2025-03-24 14:04:06.839336934 UTC",
+      "Active": false,
+      "Allocation Amount": "50 TiB",
+      "Signers": [
+        {
+          "Github Username": "MikeH1999",
+          "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
+          "Created At": "2025-03-24 14:06:33.019000000 UTC",
+          "Message CID": "bafy2bzaceb5f3z2tsuxw7svf2ah2ri4lr4gtcbf2ys5ptvvd5zjiexn4olfv2"
+        }
+      ]
+    }
+  ]
+}

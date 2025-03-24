@@ -4,7 +4,7 @@
   "Issue Number": "77",
   "Client": {
     "Name": "Maxar Open Data Program",
-    "Region": "china",
+    "Region": "US",
     "Industry": "IT & Technology Services",
     "Website": "https://registry.opendata.aws/maxar-open-data/；https://x.com/Maxar；https://www.youtube.com/channel/UCPsjOe5fyZLN6ko3RwbBqYw",
     "Social Media": "https://www.maxar.com/maxar-space-systems/about",
@@ -16,7 +16,7 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Resource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::maxar-opendata\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://maxar-opendata/\n\n\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302300/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302213/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302212/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302211/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302120/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302302/2019-11-09/103001009D337C00-visual.tif",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
-    "How do you plan to prepare the dataset": "We developed systems to automatically download data and process it.\n",
+    "How do you plan to prepare the dataset": "We generate and send cars and related orders based on this document: https://github.com/tech-greedy/singularity/blob/main/getting-started.md.",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Pre and post event high-resolution satellite imagery in support of emergency planning, risk assessment, monitoring of staging areas and emergency response, damage assessment, and recovery. These images are generated using the Maxar ARD pipeline, tiled on an organized grid in analysis-ready cloud-optimized formats.",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
@@ -29,9 +29,9 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "6PiB",
-    "Single Size Dataset": "750TiB",
-    "Replicas": 8,
+    "Total Requested Amount": "7.5PiB",
+    "Single Size Dataset": "788TiB",
+    "Replicas": 10,
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {

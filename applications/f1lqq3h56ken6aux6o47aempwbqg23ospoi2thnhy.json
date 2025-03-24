@@ -4,7 +4,7 @@
   "Issue Number": "77",
   "Client": {
     "Name": "Maxar Open Data Program",
-    "Region": "United States",
+    "Region": "china",
     "Industry": "IT & Technology Services",
     "Website": "https://registry.opendata.aws/maxar-open-data/；https://x.com/Maxar；https://www.youtube.com/channel/UCPsjOe5fyZLN6ko3RwbBqYw",
     "Social Media": "https://www.maxar.com/maxar-space-systems/about",
@@ -16,14 +16,14 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Resource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::maxar-opendata\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://maxar-opendata/\n\n\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302300/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302213/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302212/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302211/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302120/2019-11-09/103001009D337C00-visual.tif\nhttps://maxar-opendata.s3.us-west-2.amazonaws.com/events/HurricaneHelene-Oct24/ard/17/031133302302/2019-11-09/103001009D337C00-visual.tif",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
-    "How do you plan to prepare the dataset": "",
+    "How do you plan to prepare the dataset": "We developed systems to automatically download data and process it.\n",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Pre and post event high-resolution satellite imagery in support of emergency planning, risk assessment, monitoring of staging areas and emergency response, damage assessment, and recovery. These images are generated using the Maxar ARD pipeline, tiled on an organized grid in analysis-ready cloud-optimized formats.",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
     "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03512458 HK\nf03512720 HK\nf03513151 US\nf03513182 SG\nf01531188 HK \nf03241413 ShenZhen \nf03238633 SG \nf03241579 ShenZhen",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01531188 HK \nf03241413 ShenZhen \nf03238633 SG \nf03241579 ShenZhen\nAnother 4 SPs are still in preparation. When they are ready, we will update them to the list in advance. Thank you.",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {

@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1kkfrstbju3nbefasajiou36nxhtzyoniz6w2gna",
+  "Issue Number": "75",
+  "Client": {
+    "Name": "The Human Sleep Project",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/bdsp-hsp/",
+    "Social Media": "https://registry.opendata.aws/bdsp-hsp/",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The Human Sleep Project (HSP) sleep physiology dataset is a growing collection of clinical polysomnography (PSG) recordings. Beginning with PSG recordings from from ~15K patients evaluated at the Massachusetts General Hospital, the HSP will grow over the coming years to include data from >200K patients, as well as people evaluated outside of the clinical setting. This data is being used to develop CAISR (Complete AI Sleep Report), a collection of deep neural networks, rule-based algorithms, and signal processing approaches designed to provide better-than-human detection of conventional PSG scoring metrics, including sleep stages, arousals, apnea and hypopnea events and their subtypes, and periodic limb movements. Beyond conventional scoring, the HSP dataset is intended to support research seeking to identify \"hidden\" information within the brain's activity during sleep that can be used to directly measure brain health. These brain health indicators include measures of risk for common neurologic diseases, including cerebrovascular disease, and Alzheimer's disease and related neurodegenerative diseases of aging; and indicators of response to therapies, including lifestyle interventions (e.g. diet, meditation, exercise) and pharmacologic interventions. These data are shared via the BDSP (Brain Data Science Platform, a resource developed by an international coalition of investigators that aggregates and harmonizes a wide range of large-scale human clinical neuroscience data to support research aimed at improving diagnosis, treatment, and prevention of neurologic disease, and promotion of brain health. The summary data provided here are released for the benefit of the wider scientific community without restriction on use.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Human Sleep Project (HSP) sleep physiology dataset is a growing collection of clinical polysomnography (PSG) recordings. Beginning with PSG recordings from from ~15K patients evaluated at the Massachusetts General Hospital, the HSP will grow over the coming years to include data from >200K patients, as well as people evaluated outside of the clinical setting. This data is being used to develop CAISR (Complete AI Sleep Report), a collection of deep neural networks, rule-based algorithms, and signal processing approaches designed to provide better-than-human detection of conventional PSG scoring metrics, including sleep stages, arousals, apnea and hypopnea events and their subtypes, and periodic limb movements. Beyond conventional scoring, the HSP dataset is intended to support research seeking to identify \"hidden\" information within the brain's activity during sleep that can be used to directly measure brain health. These brain health indicators include measures of risk for common neurologic diseases, including cerebrovascular disease, and Alzheimer's disease and related neurodegenerative diseases of aging; and indicators of response to therapies, including lifestyle interventions (e.g. diet, meditation, exercise) and pharmacologic interventions. These data are shared via the BDSP (Brain Data Science Platform, a resource developed by an international coalition of investigators that aggregates and harmonizes a wide range of large-scale human clinical neuroscience data to support research aimed at improving diagnosis, treatment, and prevention of neurologic disease, and promotion of brain health. The summary data provided here are released for the benefit of the wider scientific community without restriction on use.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Yes, we prepare the data, and we have downloaded some data in advance.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Resource type\nS3 Bucket Controlled Access\nAmazon Resource Name (ARN)\narn:aws:s3:us-east-1:184438910517:accesspoint/bdsp-psg-access-point/PSG/\nAWS Region\nus-east-1",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03512458 HK\nf03512720 HK\nf03513151 US\nf03513182 SG",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-03-20 10:25:54.691784546 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1kkfrstbju3nbefasajiou36nxhtzyoniz6w2gna",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}

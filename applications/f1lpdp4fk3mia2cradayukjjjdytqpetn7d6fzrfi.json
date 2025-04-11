@@ -32,7 +32,7 @@
     "Total Requested Amount": "8PiB",
     "Single Size Dataset": "1PiB",
     "Replicas": 8,
-    "Weekly Allocation": "512TiB"
+    "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
     "State": "Granted",
@@ -43,7 +43,7 @@
     "Active Request ID": "8e60fed5-b638-43af-b33b-6f66c9ace760",
     "On Chain Address": "f1lpdp4fk3mia2cradayukjjjdytqpetn7d6fzrfi",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {

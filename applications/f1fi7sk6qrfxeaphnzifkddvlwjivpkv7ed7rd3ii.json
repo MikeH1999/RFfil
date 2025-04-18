@@ -12,7 +12,6 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Project Id": "1",
     "Brief history of your project and organization": "Team: MTYW Team\r\n\r\nMaitian Yunwang (Hangzhou) Information Technology Co., Ltd. was established in 2020 and is a high-tech enterprise specializing in distributed data storage. It is a new force and driving force in the national new infrastructure construction team. The company takes identity authentication technology as its security infrastructure and building a distributed storage architecture as its technical roadmap, committed to independent research and application of trusted private cloud technology. The company's services are based on the Maitian Cloud Network distributed private cloud platform, utilizing advanced technologies such as big data and cloud computing to integrate government and enterprise business data, monitoring data, operational data, etc., to provide customers with end-to-end intelligent value-added services, driven by data.\r\n\r\n\r\nProject: Distributed Cloud Storage（ https://www.mty.wang/data-storage ）\r\n\r\nMNStar is a storage system independently developed by Maitian Cloud Network based on the architecture design and operational experience of object storage services. It is a stable, reliable, high-performance, and flexible elastic computing service provided by Maitian Cloud Network to customers. Customers can create and use cloud servers according to different business needs at any time, saving a lot of time and cost compared to IT hardware, while simplifying IT procurement, deployment, implementation, operation and maintenance work. Capable of building hundreds of EB level highly reliable, secure, low-cost, and scalable business systems for customers to meet diverse unstructured data storage needs.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "The data stored in Filecoin is from publicly available datasets with important information for environments via NOAA.",
@@ -36,12 +35,12 @@
     "Weekly Allocation": "50TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ReadyToSign",
     "Validated At": "2024-04-03 22:26:00.656214919 UTC",
     "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2024-04-18 07:33:45.923124079 UTC",
-    "Active Request ID": "4af90e90-59de-4d0f-a003-3e21bcb30600",
+    "Updated At": "2024-07-02 01:25:04.749846189 UTC",
+    "Active Request ID": "a0db4265-60ae-47e0-8cce-60ab1f39dafb",
     "On Chain Address": "f1fi7sk6qrfxeaphnzifkddvlwjivpkv7ed7rd3ii",
     "Multisig Address": "false",
     "edited": null
@@ -94,6 +93,15 @@
           "Message CID": "bafy2bzaceakfkuxhsod4giekz3twzqj22n6u5p7mtrqdhaycjlhji365ymfba"
         }
       ]
+    },
+    {
+      "ID": "a0db4265-60ae-47e0-8cce-60ab1f39dafb",
+      "Request Type": "Refill",
+      "Created At": "2024-07-02 01:25:04.749853861 UTC",
+      "Updated At": "2024-07-02 01:25:04.749855389 UTC",
+      "Active": true,
+      "Allocation Amount": "120TiB",
+      "Signers": []
     }
   ]
 }

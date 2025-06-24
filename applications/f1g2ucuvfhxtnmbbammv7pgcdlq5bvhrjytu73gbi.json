@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1g2ucuvfhxtnmbbammv7pgcdlq5bvhrjytu73gbi",
+  "Issue Number": "113",
+  "Client": {
+    "Name": "Hunan Yingtian Agriculture Development Co.,Ltd.",
+    "Region": "China",
+    "Industry": "Resources, Agriculture & Fisheries",
+    "Website": "https://www.hnetien.com/",
+    "Social Media": "https://hnetien.com/contact.html",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Hunan Yingtian Agricultural Development Co., Ltd. is a modernized agricultural enterprise focusing on grain acquisition, sales and processing.With advanced rice processing production lines and modernized storage facilities, the company is committed to providing consumers with high-quality, safe and healthy grain products.\n\nThe company's business covers a wide range of fields such as grain acquisition, sales, rice processing, noodle product production, agricultural product development, etc. It also provides services such as warehouse leasing, cargo storage, commodity distribution, etc., forming a complete industrial chain.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Some video data from the company's inception",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "Use the go-car tool to package the video data as a car file and send it to the storage provider with boost",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.mgtv.com/b/607541/21278086.html\nhttps://mp.weixin.qq.com/s?__biz=MjM5OTYxNDYwMA==&mid=2650481873&idx=1&sn=f6cb43b99a770d1a353a3a3a81a0ef2f&chksm=be94bb4a64ec8d3aac48d3cfcfc61f5902b98865ee6f9529087b922a826bbc1d4e345a4ef13b&scene=27\nhttps://space.bilibili.com/2075260881\nThese are some of the video accounts we run as a company",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03377773 Vietnam\nf03377778 Vietnam\nf03499888 foshan\nf03373733 Guangdong\nf03373337 Guangdong\nf03373373 Guangdong\nf03081960 CALIFORNIA\nf03081952 CALIFORNIA\nf03559991  GuangDong\nf03559992  GuangDong\nf03559993  GuangDong\nf03559994  GuangDong\nf03559995  GuangDong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-06-24 06:57:18.590160475 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1g2ucuvfhxtnmbbammv7pgcdlq5bvhrjytu73gbi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}

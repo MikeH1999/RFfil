@@ -35,11 +35,11 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-07-07 07:35:45.997687950 UTC",
+    "State": "Granted",
+    "Validated At": "2025-07-07 07:37:36.458762656 UTC",
     "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2025-07-07 07:35:45.997690730 UTC",
+    "Updated At": "2025-07-07 07:37:36.458758940 UTC",
     "Active Request ID": "e974be1c-4a34-4abe-b8e6-18e08ed1c808",
     "On Chain Address": "f1g2ucuvfhxtnmbbammv7pgcdlq5bvhrjytu73gbi",
     "Multisig Address": "false",
@@ -99,9 +99,16 @@
       "Request Type": "Refill",
       "Created At": "2025-07-07 07:35:45.997695122 UTC",
       "Updated At": "2025-07-07 07:35:45.997695860 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1125899906842624B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "MikeH1999",
+          "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
+          "Created At": "2025-07-07 07:37:35.772000000 UTC",
+          "Message CID": "bafy2bzaceaupevlj4pdkpd72cyameopzqx6hlotbigjuyfmqjpdzlo2l4pnti"
+        }
+      ]
     }
   ]
 }

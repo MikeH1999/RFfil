@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f126tt6ifhd3rhaz4yfcl3j356jblzyeho672fsly",
+  "Issue Number": "124",
+  "Client": {
+    "Name": "AIND",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://allenneuraldynamics.github.io/data.html#aind-open-data",
+    "Social Media": "aindopendata@alleninstitute.org",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "AIND is committed to FAIR, Open, and Reproducible science. We therefore share all of the raw and derived data we collect publicly with rich metadata, including preliminary data collected during methods development, as near to the time of collection as possible.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "AIND’s mission to share data early with full reproducibility has significant implications on how data and metadata should be organized and represented. Organizational principles include:\n\nImmutability: once data is collected it should not be touched to ensure reproducibility.\nMetadata Accessibility: metadata must be trivial to find and read for humans and machines.\nCloud Compatibility: data should be stored in cloud-friendly formats.\nBased on these principles, s3://aind-open-data is organized as a flat list of data assets, where a data asset is simply a logical collection of files. Derived data assets are separate from their source assets, meaning they are not stored in the same path or directory.\n\nInspired by BIDS and the HCA metadata schema, metadata describing a data asset is stored as sidecar JSON files that live adjacent to the data they describe. These JSON files conform to the schemas defined in aind-data-schema.\n\nAs soon as possible, data in this bucket are stored in cloud-friendly formats, including NWB-Zarr for physiology and OME-Zarr for imaging. We aspire to produce data in these formats at the time of acquisition.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We use the aws cli tool to download data from AWS, cut the data into appropriate sizes and package them into car files, and finally send them to SP via http/hard disk mail.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://aind-open-data/ecephys_789051_2025-06-27_12-28-52\ns3://aind-open-data/ecephys_790025_2025-06-24_08-55-11\ns3://aind-open-data/behavior_800680_2025-07-21_09-18-24\ns3://aind-open-data/behavior_800680_2025-07-21_09-23-27\ns3://aind-open-data/fmost_109-05-234140v2\ns3://aind-open-data/fmost_109-06-234141",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany\nf03315260 Germany\nf03367915 United States\nf03368008 Vietnam\nf03542777 Vietnam\nf03603117 United States\nf03559187 United States",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "800TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-07-26 09:04:13.926618486 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f126tt6ifhd3rhaz4yfcl3j356jblzyeho672fsly",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}

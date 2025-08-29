@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1teazw3myutd255ofx3jng2yzoqhqaczmednrioi",
   "Issue Number": "144",
+  "Client Contract Address": "f410f2gttflowjnzcxeeop6husfjctopyvskazcmnjgi",
   "Client": {
     "Name": "DDO test",
     "Region": "Afghanistan",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "50TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-08-29 09:50:10.545723 UTC",
+    "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2025-08-29 09:48:53.853469487 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-08-29 09:50:10.545726869 UTC",
+    "Active Request ID": "55fdfdb4-5413-4716-893b-7c556befd4c6",
     "On Chain Address": "f1teazw3myutd255ofx3jng2yzoqhqaczmednrioi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "55fdfdb4-5413-4716-893b-7c556befd4c6",
+      "Request Type": "First",
+      "Created At": "2025-08-29 09:50:10.545729394 UTC",
+      "Updated At": "2025-08-29 09:50:10.545730109 UTC",
+      "Active": true,
+      "Allocation Amount": "21990232555520 B",
+      "Signers": []
+    }
+  ]
 }

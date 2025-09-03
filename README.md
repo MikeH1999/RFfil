@@ -2,9 +2,7 @@
 Notary Allocator Pathway Name : RFfil
 
 # 🚀 RFfil渠道分配提案 | RFfil Allocation Proposal
-
-> GitHub Issue: https://github.com/filecoin-project/notary-governance/issues/1054
-
+完全采用智能合约方式进行分配|Allocated entirely using smart contracts
 ---
 
 ## 📌 一、组织信息 | Organization Information
@@ -49,8 +47,8 @@ RFfil  is a new pathway. This proposed channel is designed to allow us to reach 
 
 ## 💾 四、数据要求 | Data Requirements
 
-1. 💠 至少进行 3 份数据备份  
-   - At least 3 data backups  
+1. 💠 至少进行 3 份数据备份 ，最多8份
+   - At least 3 data backups ，Up to 8 copies
 2. 🌐 节点地理位置分布 ≥ 3 个地区  
    - Nodes must span at least 3 distinct geographic regions  
 3. 📊 单轮中每个 SP 分配不超过 25%  

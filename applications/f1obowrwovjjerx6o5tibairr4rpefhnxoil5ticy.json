@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1obowrwovjjerx6o5tibairr4rpefhnxoil5ticy",
   "Issue Number": "150",
+  "Client Contract Address": "f410f2gttflowjnzcxeeop6husfjctopyvskazcmnjgi",
   "Client": {
     "Name": "Shanxi Sanjin Newspaper and Media Group",
     "Region": "China",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-09-03 13:05:59.511857692 UTC",
+    "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2025-09-03 11:39:38.656181409 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-09-03 13:05:59.511863111 UTC",
+    "Active Request ID": "5a99224c-2022-4558-9eb1-4521e92728ac",
     "On Chain Address": "f1obowrwovjjerx6o5tibairr4rpefhnxoil5ticy",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "5a99224c-2022-4558-9eb1-4521e92728ac",
+      "Request Type": "First",
+      "Created At": "2025-09-03 13:05:59.511865332 UTC",
+      "Updated At": "2025-09-03 13:05:59.511866093 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }

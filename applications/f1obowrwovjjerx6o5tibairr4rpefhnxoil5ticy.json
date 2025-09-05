@@ -36,11 +36,11 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-09-05 07:29:30.934346632 UTC",
+    "State": "Granted",
+    "Validated At": "2025-09-05 07:35:10.534025910 UTC",
     "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2025-09-05 07:29:30.934350617 UTC",
+    "Updated At": "2025-09-05 07:35:10.534021305 UTC",
     "Active Request ID": "23f4170e-6fcf-4ddd-a9b9-16757511033f",
     "On Chain Address": "f1obowrwovjjerx6o5tibairr4rpefhnxoil5ticy",
     "Multisig Address": "false",
@@ -70,9 +70,18 @@
       "Request Type": "Refill",
       "Created At": "2025-09-05 07:29:30.934354003 UTC",
       "Updated At": "2025-09-05 07:29:30.934354641 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "562949953421312B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "562949953421312B",
+      "Signers": [
+        {
+          "Github Username": "MikeH1999",
+          "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
+          "Created At": "2025-09-05 07:35:06.436000000 UTC",
+          "Message CID": "bafy2bzacebts7n37ngtknay3diy5zvrn4qf3phqj4iakg6xmv4d4xvar7wzjk",
+          "Increase allowance CID": "bafy2bzaceb3tokej44u4j5ym22skgggaheliqxuaflqijqzczlrzszp5t6y6m"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [

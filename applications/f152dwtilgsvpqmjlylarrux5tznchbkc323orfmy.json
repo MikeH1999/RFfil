@@ -36,7 +36,7 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "TotalDatacapReached",
+    "State": "ChangesRequested",
     "Validated At": "2025-11-25 10:39:39.852991334 UTC",
     "Validated By": "MikeH1999",
     "Active": false,
@@ -44,7 +44,7 @@
     "Active Request ID": null,
     "On Chain Address": "f152dwtilgsvpqmjlylarrux5tznchbkc323orfmy",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {

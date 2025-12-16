@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-10-13 11:18:33.465988226 UTC",
+    "Validated At": "2025-12-16 07:59:43.062629650 UTC",
     "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2025-10-13 11:18:33.465987522 UTC",
-    "Active Request ID": "f29dd572-4c95-4481-aec7-5c165d02ad84",
+    "Updated At": "2025-12-16 07:59:43.062627866 UTC",
+    "Active Request ID": "76556a08-cbc1-4a7d-a3f0-77b4efd3f213",
     "On Chain Address": "f1patexmxnhwsdlt4ul4trea6sbdrdxjizpr3ch4y",
     "Multisig Address": "false",
     "edited": false
@@ -60,6 +60,22 @@
           "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
           "Created At": "2025-10-13 11:12:33.886000000 UTC",
           "Increase allowance CID": "bafy2bzacea2r3hiaugs56fi2uk2gj2njmdlcvwnvx6iwhqgysjgdmqvulz4lo"
+        }
+      ]
+    },
+    {
+      "ID": "76556a08-cbc1-4a7d-a3f0-77b4efd3f213",
+      "Request Type": "Decrease",
+      "Created At": "2025-12-16 07:59:43.062614821 UTC",
+      "Updated At": "2025-12-16 07:59:43.062619645 UTC",
+      "Active": false,
+      "Allocation Amount": "-4947802324992 B",
+      "Signers": [
+        {
+          "Github Username": "MikeH1999",
+          "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
+          "Created At": "2025-12-16 07:59:43.062625514 UTC",
+          "Message CID": "bafy2bzaceddcwah5ukyug6topbgt5oug6wfjcbzsjv4pp7wczl7e3eqkju3gs"
         }
       ]
     }

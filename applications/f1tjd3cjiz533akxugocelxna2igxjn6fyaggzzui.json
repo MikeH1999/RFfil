@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1tjd3cjiz533akxugocelxna2igxjn6fyaggzzui",
   "Issue Number": "197",
+  "Client Contract Address": "f410f2gttflowjnzcxeeop6husfjctopyvskazcmnjgi",
   "Client": {
     "Name": "Wuhan Qitian Animation Illustration Co., Ltd.",
     "Region": "China",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-12-24 08:55:30.246655254 UTC",
+    "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2025-12-24 07:49:52.395978863 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-12-24 08:55:30.246660811 UTC",
+    "Active Request ID": "9b397185-c75c-461b-8558-1470dec0f32c",
     "On Chain Address": "f1tjd3cjiz533akxugocelxna2igxjn6fyaggzzui",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "9b397185-c75c-461b-8558-1470dec0f32c",
+      "Request Type": "First",
+      "Created At": "2025-12-24 08:55:30.246663229 UTC",
+      "Updated At": "2025-12-24 08:55:30.246664632 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }

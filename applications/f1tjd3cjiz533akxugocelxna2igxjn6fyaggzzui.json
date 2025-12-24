@@ -36,11 +36,11 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-12-24 08:55:30.246655254 UTC",
+    "State": "Granted",
+    "Validated At": "2025-12-24 08:58:40.597431482 UTC",
     "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2025-12-24 08:55:30.246660811 UTC",
+    "Updated At": "2025-12-24 08:58:40.597426799 UTC",
     "Active Request ID": "9b397185-c75c-461b-8558-1470dec0f32c",
     "On Chain Address": "f1tjd3cjiz533akxugocelxna2igxjn6fyaggzzui",
     "Multisig Address": "false",
@@ -52,9 +52,18 @@
       "Request Type": "First",
       "Created At": "2025-12-24 08:55:30.246663229 UTC",
       "Updated At": "2025-12-24 08:55:30.246664632 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "281474976710656 B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "MikeH1999",
+          "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
+          "Created At": "2025-12-24 08:58:36.818000000 UTC",
+          "Message CID": "bafy2bzacebhh3tk5wkt5oqr2c2pvujyq6asfjbbekx2gtacu6tvy3ymto5na4",
+          "Increase allowance CID": "bafy2bzaced7ix7mvacb4khwollylgrkctntthiolv77zkhgqq5xxn5bmwrtg2"
+        }
+      ]
     }
   ]
 }

@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-12-25 09:40:39.764123109 UTC",
+    "Validated At": "2025-12-25 09:44:21.702817547 UTC",
     "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2025-12-25 09:40:39.764119079 UTC",
-    "Active Request ID": "47c4c7d0-2062-44b3-ab3d-fcb94cdf250c",
+    "Updated At": "2025-12-25 09:44:21.702816414 UTC",
+    "Active Request ID": "66ea0044-a068-49cc-8bdf-797885d155a9",
     "On Chain Address": "f1bxnh7glnd5iglrnd3hrpv2mgx7jshkbvpjz3xly",
     "Multisig Address": "false",
     "edited": false
@@ -62,6 +62,38 @@
           "Created At": "2025-12-25 09:40:36.026000000 UTC",
           "Message CID": "bafy2bzaced3atfvg275fozb567g4nbhiquxkbjadiuejsxmgueknr5xxfbdra",
           "Increase allowance CID": "bafy2bzacecgf6sa7rpqf5a2hjqmbfl4zhqb63u4d2vhfau2n2lgwr5xi4c4fw"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "b3cb8d2c-793b-4a7c-a1fb-6f4178683e4c",
+      "Created At": "2025-12-25 09:44:21.702796714 UTC",
+      "Updated At": "2025-12-25 09:44:21.702802329 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3559991,
+        3559992,
+        3559993,
+        3559994,
+        3559995
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "MikeH1999",
+          "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
+          "Set Max Deviation CID": "bafy2bzacedtdqxe6ue5k5ryvfhomtjvt7thd7ro4hauacm4k6nxxpx2gxcdwy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacedw7cyboicisnnoupcvnt4i3vp5cv7qds6q5rngqrk7qoc4c2qyhc": [
+              "3559991",
+              "3559992",
+              "3559993",
+              "3559994",
+              "3559995"
+            ]
+          }
         }
       ]
     }

@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1bxnh7glnd5iglrnd3hrpv2mgx7jshkbvpjz3xly",
   "Issue Number": "200",
+  "Client Contract Address": "f410f2gttflowjnzcxeeop6husfjctopyvskazcmnjgi",
   "Client": {
     "Name": "CGTURBO STUDIO",
     "Region": "China",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-12-25 09:37:35.470118299 UTC",
+    "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2025-12-25 07:46:23.957153846 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-12-25 09:37:35.470122613 UTC",
+    "Active Request ID": "47c4c7d0-2062-44b3-ab3d-fcb94cdf250c",
     "On Chain Address": "f1bxnh7glnd5iglrnd3hrpv2mgx7jshkbvpjz3xly",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "47c4c7d0-2062-44b3-ab3d-fcb94cdf250c",
+      "Request Type": "First",
+      "Created At": "2025-12-25 09:37:35.470125509 UTC",
+      "Updated At": "2025-12-25 09:37:35.470126782 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }

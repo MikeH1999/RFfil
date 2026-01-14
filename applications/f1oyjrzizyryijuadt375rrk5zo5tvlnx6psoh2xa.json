@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1oyjrzizyryijuadt375rrk5zo5tvlnx6psoh2xa",
   "Issue Number": "208",
+  "Client Contract Address": "f410f2gttflowjnzcxeeop6husfjctopyvskazcmnjgi",
   "Client": {
     "Name": "AIND",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1000 TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2026-01-14 03:53:08.394794945 UTC",
+    "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2026-01-13 16:05:12.912931631 UTC",
-    "Active Request ID": "",
+    "Updated At": "2026-01-14 03:53:08.394799359 UTC",
+    "Active Request ID": "5f1ac50c-9ebf-407d-a019-af3ee609717a",
     "On Chain Address": "f1oyjrzizyryijuadt375rrk5zo5tvlnx6psoh2xa",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "5f1ac50c-9ebf-407d-a019-af3ee609717a",
+      "Request Type": "First",
+      "Created At": "2026-01-14 03:53:08.394801296 UTC",
+      "Updated At": "2026-01-14 03:53:08.394802174 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }

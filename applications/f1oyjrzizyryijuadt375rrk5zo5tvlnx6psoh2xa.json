@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2026-01-15 06:03:42.024079854 UTC",
+    "Validated At": "2026-01-15 06:17:40.106079583 UTC",
     "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2026-01-15 06:03:42.024078896 UTC",
-    "Active Request ID": "9f4676d7-5dbf-4992-ab6e-9e19b4a0280d",
+    "Updated At": "2026-01-15 06:17:40.106078660 UTC",
+    "Active Request ID": "160c9897-0fe3-49e0-b01f-0a8d62e7fa13",
     "On Chain Address": "f1oyjrzizyryijuadt375rrk5zo5tvlnx6psoh2xa",
     "Multisig Address": "false",
     "edited": false
@@ -96,6 +96,38 @@
               "3669112 ",
               "3100014",
               "3099777 "
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "55826f9e-f8f5-480a-959a-2d61eed7b0b3",
+      "Created At": "2026-01-15 06:17:40.106057388 UTC",
+      "Updated At": "2026-01-15 06:17:40.106064813 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3099888,
+        3099287,
+        3098965,
+        3099101,
+        3669112,
+        3100014,
+        3099777,
+        3100088
+      ],
+      "Signers": [
+        {
+          "Github Username": "MikeH1999",
+          "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacedlzchsiutpmbf27iw5f3nue6l6k3hucr75j3swfuhpl6lmnhryzo": [
+              "3100088"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacebys3g4kikhqu2xojy54ujf34lkrty5tkjg77a4danh4ofmr6tbda": [
+              "3099008"
             ]
           }
         }

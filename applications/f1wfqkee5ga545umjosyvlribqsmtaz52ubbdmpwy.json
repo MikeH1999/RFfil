@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "ID": "f1wfqkee5ga545umjosyvlribqsmtaz52ubbdmpwy",
+  "Issue Number": "8",
+  "Client": {
+    "Name": "Liaoning Zhongguan Environmental engineering Co., Ltd",
+    "Region": "China",
+    "Industry": "Environment",
+    "Website": "N/A",
+    "Social Media": "hash",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "Liaoning Zhongguan Environmental engineering Co., Ltd. was established on December 6, 2007. The company's business scope includes: water environment governance, atmospheric environment governance, and ecological environment governance; Solid waste treatment; Comprehensive utilization of renewable resources; Design and construction general contracting of industrial wastewater and domestic wastewater treatment engineering; Water conservancy exploration and design, construction and maintenance of municipal public works; General contracting of environmental protection engineering construction; Operation, commissioning, and management services for environmental pollution control facilities; Production and sales of environmental protection equipment and engineering materials; Engineering consulting and evaluation; Design, construction, and sales of protective materials for radiation protection engineering; Manufacturing and installation of atmospheric pressure electric hot water boilers, waste heat recovery and energy-saving complete equipment, etc",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Environmental governance promotional videos, environmental videos, satellite remote sensing images, etc",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "https://github.com/filecoin-project/filecoin-plus-large-datasets/issues/2228\r\n\r\nAlready applied for LDN",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://cloud.189.cn/t/IFreEfymmI3y （access code：7rjb）",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Miner ID | Name | Region\r\n-- | -- | --\r\nf02215209 | Mike |  California\r\nf02817777 | zhangx | Hong Kong\r\nf01128206 | zhangx | Hong Kong\r\nf02237006|Aron|Singapore\r\nf02816666 | jastin | Huhehaote\r\nf01888808 |郑建林|罗马尼亚\r\nf02237010|Li|Tokyo",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10",
+    "Single Size Dataset": "2",
+    "Replicas": 6,
+    "Weekly Allocation": "1"
+  },
+  "Lifecycle": {
+    "State": "ReadyToSign",
+    "Validated At": "2024-03-28 04:10:43.330701573 UTC",
+    "Validated By": "MikeH1999",
+    "Active": true,
+    "Updated At": "2024-03-28 04:10:43.330737434 UTC",
+    "Active Request ID": "6967bff1-997d-4743-bf07-a9e553df1792",
+    "On Chain Address": "f1wfqkee5ga545umjosyvlribqsmtaz52ubbdmpwy",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "6967bff1-997d-4743-bf07-a9e553df1792",
+      "Request Type": "First",
+      "Created At": "2024-03-28 04:10:43.330740075 UTC",
+      "Updated At": "2024-03-28 04:10:43.330741163 UTC",
+      "Active": true,
+      "Allocation Amount": "1",
+      "Signers": []
+    }
+  ]
+}

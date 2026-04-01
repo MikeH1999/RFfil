@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "ID": "f1qi2p574rkxzmgg3kabegdudjr4n7fxugmegxuii",
+  "Issue Number": "18",
+  "Client": {
+    "Name": "1",
+    "Region": "Afghanistan",
+    "Industry": "Life Science / Healthcare",
+    "Website": "1",
+    "Social Media": "1",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "test",
+    "Brief history of your project and organization": "1",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "1",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "1",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "1",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "IPFS",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "2PiB",
+    "Replicas": 4,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "ReadyToSign",
+    "Validated At": "2024-03-29 16:58:20.905523780 UTC",
+    "Validated By": "MikeH1999",
+    "Active": true,
+    "Updated At": "2024-03-29 16:58:20.905528476 UTC",
+    "Active Request ID": "b9f70222-f51b-4da8-b580-7a0d09740820",
+    "On Chain Address": "f1qi2p574rkxzmgg3kabegdudjr4n7fxugmegxuii",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "b9f70222-f51b-4da8-b580-7a0d09740820",
+      "Request Type": "First",
+      "Created At": "2024-03-29 16:58:20.905530227 UTC",
+      "Updated At": "2024-03-29 16:58:20.905531486 UTC",
+      "Active": true,
+      "Allocation Amount": "512TiB",
+      "Signers": []
+    }
+  ]
+}

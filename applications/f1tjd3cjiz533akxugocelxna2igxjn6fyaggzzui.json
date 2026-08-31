@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2026-08-31 03:21:24.296727617 UTC",
+    "Validated At": "2026-08-31 03:23:12.332972657 UTC",
     "Validated By": "MikeH1999",
     "Active": true,
-    "Updated At": "2026-08-31 03:21:24.296730882 UTC",
+    "Updated At": "2026-08-31 03:23:12.332971801 UTC",
     "Active Request ID": "b072a0a9-0a09-42b8-8bd8-cdf4c63428ee",
     "On Chain Address": "f1tjd3cjiz533akxugocelxna2igxjn6fyaggzzui",
     "Multisig Address": "false",
@@ -173,6 +173,29 @@
               "3573377 ",
               "3593579",
               "3573579 "
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "55c3712b-ac5b-4c63-afe0-54721511256b",
+      "Created At": "2026-08-31 03:23:12.332937203 UTC",
+      "Updated At": "2026-08-31 03:23:12.332944110 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3582468,
+        3573377,
+        3573579
+      ],
+      "Signers": [
+        {
+          "Github Username": "MikeH1999",
+          "Signing Address": "f1uci7zkbdvscvu5mklxwwafkqqn7qo7rwc6rfoxi",
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacebzmvm4em4sa25zu3hil4igqkyiaiyojpqyy2s3l5a2jmtsbtd5w4": [
+              "3588888",
+              "3593579"
             ]
           }
         }
